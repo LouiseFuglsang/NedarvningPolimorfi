@@ -1,10 +1,9 @@
-/**
- * Developed by András Ács (acsandras@gmail.com)
- * Zealand / www.zealand.dk
- * Licensed under the MIT License
- * 09/11/2020
- */
 
-public class Peas extends Grønsag {
+public class Peas extends Vegetables implements Conserve {
 
+
+    @Override
+    public void conserve() {
+        System.out.println("Ærterne fryses ned.");
+    }
 }
